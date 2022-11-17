@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+.card-container {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #e4ebf3;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0b69ff;
+}
+.description {
+  color: #333333;
+}
+.btn {
+  background-color: #0b69ff;
+  padding: 5px;
+  color: white;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.num {
+  font-size: 20px;
+  color: #0b69ff;
+  font-weight: bold;
+}
